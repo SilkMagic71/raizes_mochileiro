@@ -255,7 +255,7 @@ screen quick_menu():
             textbutton _("Automotivo") action Preference("auto-forward", "toggle")
             textbutton _("Salvar") action ShowMenu('save')
             textbutton _("Q.Salvar") action QuickSave()
-            textbutton _("Q. Carga") action QuickLoad()
+            textbutton _("Q. Carregar") action QuickLoad()
             textbutton _("Prefs") action ShowMenu('preferences')
 
 
@@ -305,7 +305,7 @@ screen navigation():
 
             textbutton _("Salvar") action ShowMenu("save")
 
-        textbutton _("Carga") action ShowMenu("load")
+        textbutton _("Carregar") action ShowMenu("load")
 
         textbutton _("Preferências") action ShowMenu("preferences")
 
