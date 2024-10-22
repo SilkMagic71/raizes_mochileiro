@@ -64,7 +64,7 @@ define config.has_voice = True
 ## continuará sendo reproduzido no jogo até que seja interrompido ou outro
 ## arquivo seja reproduzido.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "Miss You Back.mp3"
 
 
 ## Transições ##################################################################
@@ -122,7 +122,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## Controla a velocidade padrão do texto. O padrão, 0, é infinito, enquanto
 ## qualquer outro número é o número de caracteres por segundo a serem digitados.
 
-default preferences.text_cps = 0
+default preferences.text_cps = 40
 
 
 ## O atraso padrão do encaminhamento automático. Números maiores levam a esperas
